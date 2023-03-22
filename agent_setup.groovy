@@ -1,2 +1,0 @@
-stages stagel.Display Jenkins Agent Setup.) steps d Sh .SnOwSgl -v. sh 'docker -v. :ptenv I sort. 
-stage( 'Deploy to Snowflake') d input d Message "Snevflake env per git branch: \n\nI Oct branch > sfuowsoLEN*ni feature, \ni parameters strang(name: .SNOWSQL_SSRIPT., defaultValue: .ADHOD_SDRIPTS/SELEST_1.sgt., description: 'Script Full PAW) string(name: 'DB LAYER., defaultgalue: .FON., description: 'Database layer, can be FIAS or DONS') 
