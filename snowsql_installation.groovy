@@ -30,3 +30,7 @@ pipeline {
     }
   }
 }
+
+//1. Install Docker Desktop
+//2. Get Jenkins Image | docker pull jenkins/jenkins:latest | (docker pull jenkins/jenkins:windowsservercore-2019)
+//3. 
