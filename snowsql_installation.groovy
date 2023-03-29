@@ -2,7 +2,7 @@ pipeline {
     options {
       timeout(time: 1, unit: 'HOURS') 
   }
-  agent {
+  agent { //Using docker agent sqitch - saves us the trouble of installing ODBC drivers and SnoqSQL setup
     docker {
       image 'hashmapinc/sqitch:jenkins'
       args "-u root -v /var/run/docker.sock:/var/run/docker.sock --entrypoint=''"
